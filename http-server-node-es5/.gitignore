@@ -35,11 +35,13 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
+build/
 
 # Dependency directories
 node_modules/
 jspm_packages/
+package-lock.json
+yarn.lock
 
 # TypeScript v1 declaration files
 typings/
@@ -102,3 +104,26 @@ dist
 
 # TernJS port file
 .tern-port
+
+# OSX
+.DS_Store
+
+# App packaged
+out/
+release
+src/main.prod.js
+src/main.prod.js.map
+src/renderer.prod.js
+src/renderer.prod.js.map
+src/style.css
+src/style.css.map
+dist
+dll
+main.js
+main.js.map
+
+.idea
+npm-debug.log.*
+*.css.d.ts
+*.sass.d.ts
+*.scss.d.ts

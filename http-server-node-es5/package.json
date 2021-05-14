@@ -1,0 +1,12 @@
+{
+  "name": "http-server-node-es5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
