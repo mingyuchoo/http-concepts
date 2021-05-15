@@ -1,0 +1,17 @@
+plugins {
+	id 'java'
+    id 'application' // IMPORTANT
+}
+
+group = 'com.mingyuchoo'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+mainClassName = 'com.mingyuchoo.demo.Application' // IMPORTANT
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'com.sun.net.httpserver:http:20070405'
+}
