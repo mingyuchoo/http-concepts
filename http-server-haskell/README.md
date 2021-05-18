@@ -1,21 +1,30 @@
 # http-server-haskell
 
-## How to build
+## Prerequisite
+
+Please install Haskell platform before to start
+
+- <https://www.haskell.org/ghcup/>
+
+
+## How to install dependencies and run this
 
 ```bash
-stack setup
-stack build
+cabal install
+cabal run
+
+# or
+
+./start.sh
 ```
 
-## How to run
+## How to check if it is work correctly
 
 ```bash
-stack exec <project-name>-exe
+curl http://localhost:80
 ```
 
-## How to install
+## References
 
-```bash
-stack install <package-name>
-```
-
+- <https://cabal.readthedocs.io/en/latest/intro.html>
+- <https://dev.to/parambirs/how-to-write-a-haskell-web-servicefrom-scratch---part-3-5en6>
